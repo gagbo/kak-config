@@ -10,6 +10,6 @@ files in autoload. This is nice when you care about performance, but I don't.
 If =kak= has been installed locally it will look like this :
 #+BEGIN_SRC bash
 cd ~/.config/kak/autoload
-ln -s ~/.local/share/autoload bundled_autoload
+ln -s ~/.local/share/kak/autoload bundled_autoload
 #+END_SRC
 =bundled_autoload= will be automatically gitignored.
